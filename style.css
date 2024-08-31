@@ -1,0 +1,157 @@
+body {
+    font-family: 'Outfit';
+    margin: 0%;
+}
+
+.image-omelette {
+    height: auto;
+    width: 100%;
+}
+
+.container {
+    margin: 1.5rem;
+}
+
+/* Typography */
+
+/* Headings and subheadings */
+
+.heading {
+    color: hsl(24, 5%, 18%);
+    font-family: 'Young Serif';
+    font-size: 47px;
+}
+
+.subheadings {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif';
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.prep-time-subheadings {
+    color:hsl(10 , 7%, 35%);
+    font-weight: bold;
+}
+ 
+.instructions-subheadings {
+    color:hsl(10 , 7%, 35%);
+    font-weight: bold;
+}   
+/* Paragraphs/Regular Text */
+
+.paragraphs {
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+}
+
+.bullet-points-color {
+    color: hsl(14, 45%, 36%);
+}
+
+.prep-time-bullet-points-color {
+    color: hsl(332, 51%, 32%);
+}
+
+.prep-time {
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+    margin: 1rem ;
+ }
+
+/* Preparation Time Style */
+
+.prep-time-container {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    margin-top: 2rem;
+    padding: 0.2rem;
+}
+
+/* Lists */
+
+.list-style {
+    margin: 1rem;
+}
+    
+.list-font-color {
+    color: hsl(30, 10%, 34%);
+    margin: 0.2rem;
+}
+
+/* Separation Lines */
+
+.separation-line {
+    border-bottom: solid hsl(30, 18%, 87%);
+}
+
+/* Nutritional Table */
+
+.nutritional-table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.table-cells {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 1rem;
+    text-align: left;
+    width: 80%;
+}
+
+.table-subheadings {
+    color:hsl(30, 10%, 34%);
+    font-weight: normal;
+}
+
+.table-nutritional-info {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+/* Desktop (1440px) - Media Query */
+
+@media screen and (min-width: 1440px) {
+
+body {
+    background-color: hsl(30, 56%, 90%);
+}
+
+.image-omelette {
+    border-radius: 20px;
+    margin-top: 3rem;
+    width: 90%;
+}
+
+.header-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.desktop-padding {
+    margin-left: 3rem;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    margin-top: 3%;
+    margin: 9.9rem;
+}
+
+.prep-time-container {
+    width: 90%;
+}
+
+.nutritional-table {
+    border-collapse: collapse;
+}
+
+.table-cells {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    text-align: left;
+    width: 50%;
+}
+
+}
+
